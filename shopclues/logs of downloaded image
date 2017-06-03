@@ -1,0 +1,41 @@
+logs of downloaded image:
+2016-09-28 17:16:40 [scrapy] INFO: Enabled item pipelines:
+['scrapy.pipelines.images.ImagesPipeline']
+2016-09-28 17:16:40 [scrapy] INFO: Spider opened
+2016-09-28 17:16:40 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-09-28 17:16:40 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-09-28 17:16:44 [scrapy] DEBUG: Crawled (200) <GET http://www.shopclues.com/robots.txt> (referer: None)
+2016-09-28 17:16:45 [scrapy] DEBUG: Crawled (200) <GET http://www.shopclues.com/canon-powershot-sx410-is-2.html> (referer: None)
+2016-09-28 17:16:54 [scrapy] DEBUG: Crawled (404) <GET http://cdn02.shopclues.net/robots.txt> (referer: None)
+2016-09-28 17:16:56 [scrapy] DEBUG: Crawled (200) <GET http://cdn02.shopclues.net/images/detailed/25781/canon0107c001powershotsx410isdigital11160981438422332_1444196674.jpg> (referer: None)
+2016-09-28 17:16:56 [scrapy] DEBUG: File (downloaded): Downloaded file from <GET http://cdn02.shopclues.net/images/detailed/25781/canon0107c001powershotsx410isdigital11160981438422332_1444196674.jpg> referred in <None>
+2016-09-28 17:16:56 [scrapy] DEBUG: Scraped from <200 http://www.shopclues.com/canon-powershot-sx410-is-2.html>
+{'image_urls': [u'http://cdn02.shopclues.net/images/detailed/25781/canon0107c001powershotsx410isdigital11160981438422332_1444196674.jpg'],
+ 'images': [{'checksum': 'de018c4fc088f254544c857e731dba40',
+             'path': 'full/711edb632ff500820e317e535f7268260555cc18.jpg',
+             'url': 'http://cdn02.shopclues.net/images/detailed/25781/canon0107c001powershotsx410isdigital11160981438422332_1444196674.jpg'}]}
+2016-09-28 17:16:56 [scrapy] INFO: Closing spider (finished)
+2016-09-28 17:16:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1005,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 419925,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/404': 1,
+ 'file_count': 1,
+ 'file_status_count/downloaded': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 9, 28, 11, 46, 56, 688956),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 9, 28, 11, 46, 40, 420680)}
+2016-09-28 17:16:56 [scrapy] INFO: Spider closed (finished)
+
